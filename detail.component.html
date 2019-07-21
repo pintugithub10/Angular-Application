@@ -1,0 +1,13 @@
+<div style="border:1px solid green">
+    Detail Page<br><br>
+
+    b Value is : {{b}}<br>    
+    <button (click)="b=b+1">+</button>
+    <button (click)="b=b-1">-</button>
+<br><br>
+
+    j Value is {{j}}<br>    
+    <button (click)="j=j+1;em.emit(j)">+</button>
+    <button (click)="j=j-1;em.emit(j)">-</button>
+
+</div>

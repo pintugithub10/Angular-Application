@@ -1,0 +1,15 @@
+<div style="border:1px solid red">
+    master Page<br>
+    a Value is : {{a}}<br>
+    <button (click)="a=a+1">+</button>
+    <button (click)="a=a-1">-</button>
+<br><br>
+
+
+    i Value is {{i}}<br>
+    <button (click)="i=i+1">+</button>
+    <button (click)="i=i-1">-</button>
+<br><br>
+<detail [j]="i" (em)="m1($event)" [b]="a" ></detail>
+
+</div>
