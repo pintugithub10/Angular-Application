@@ -1,0 +1,41 @@
+<br><form name="userform" novalidate>
+	<table>
+		<tr>
+			<td>Id</td>
+			<td><input type="text" name="id" ng-minlength="2" ng-maxlength="10" ng-module="u1.id"  required>
+				<span ng-if="userform.id.$touched&&userform.id.$invalid">
+					<span ng-if="userform.id.$error.required">
+						Please Fill the field
+					</span>
+					<span ng-if="userform.id.$error.minlength">
+						Please Provide atleast 2 char
+					</span>
+					<span ng-if="userform.id.$error.maxlength">
+						please do not provide more than 10 char
+					</span>			
+				</span>
+
+			</td>
+		</tr>
+		<tr>
+			<td>User Name</td>
+			<td><input type="text" name="username" ng-model="u1.username"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="password" name="password" ng-model="u1.password"></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="email" name="email" ng-model="u1.email"></td>
+		</tr>
+		<tr>
+			<td>Phone No</td>
+			<td><input type="tel" name="phoneNo" ng-model="u1.phoneNo"></td>
+		</tr>
+		<tr><td></td><td><button ng-click="save();">save</button></td></tr>
+
+	</table>
+	
+
+</form>

@@ -1,0 +1,20 @@
+{
+  "books": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "booktitle": "s4",
+      "bookDescription": "s4 book",
+      "year": "2019",
+      "noOfCopies": 200,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "username": "s1",
+      "password": "s123",
+      "email": "s1@gmail.com",
+      "phoneNo": "8978765654",
+      "id": 1
+    },
+    {
+      "username": "s2",
+      "password": "s2123",
+      "email": "s2@gmail.com",
+      "phoneNo": "82178765654",
+      "id": 2
+    },
+    {
+      "username": "s3",
+      "password": "s321",
+      "email": "s3@gmail.com",
+      "phoneNo": "6765434565",
+      "id": 3
+    },
+    {
+      "username": "s4",
+      "password": "s4321",
+      "email": "s4@gmail.com",
+      "phoneNo": "9765434565",
+      "id": 4
+    }
+  ],
+  "books": [
+    {
+      "booktitle": "Html",
+      "bookDescription": "html Book",
+      "year": "2019",
+      "noOfCopies": 210,
+      "id": 1
+    },
+    {
+      "booktitle": "css",
+      "bookDescription": "css Book",
+      "year": "2019",
+      "noOfCopies": 240,
+      "id": 2
+    },
+    {
+      "booktitle": "Javascript",
+      "bookDescription": "javascript Book",
+      "year": "2019",
+      "noOfCopies": 250,
+      "id": 3
+    },
+    {
+      "booktitle": "Java",
+      "bookDescription": "The Java Book",
+      "year": "2019",
+      "noOfCopies": 300,
+      "id": 4
+    }
+  ]
+}

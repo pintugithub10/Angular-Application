@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="DigitalLibraryModule">
+<head>
+	<!-- Page Title -->
+	<title>Digital Library</title>
+
+	<!-- Bootstrap Integration -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	
+	<!-- JavaScript Integration -->
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-route.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+
+<!-- Header Part -->
+	<nav class="navbar navbar-dark bg-dark text-light">
+		Digital Library
+	</nav>
+
+<!-- Body Part -->
+
+	<div class="container-fluid">
+		<div class="row">
+			<!-- Menu Section -->
+			<div class="col-3">
+				<div class="card">
+					<div class="card-body">
+						<ui class="list-group">
+							<a class="list-group-item active" href="#!home">Home</a>
+							<a class="list-group-item" href="#!contact">Contact</a>
+							<a class="list-group-item" href="#!about">About</a>
+							<a class="list-group-item" href="#!register">Add Users</a>
+							<a class="list-group-item" href="#!addbook">Add Book</a>
+							<a class="list-group-item" href="#!showusers">Show Users</a>
+							<a class="list-group-item" href="#!showbooks">Show Books</a>
+
+
+						</ui>
+					</div>
+				</div>			
+			</div>
+
+			<!-- Body Section -->
+			<div class="col-9">
+				<div ng-view></div>
+			</div> 
+		</div>
+	</div>
+
+<!-- Footer Part -->
+	<footer style="position: fixed;bottom: 0px" class="bg-primary">@Digital Library Project</footer>
+
+</body>
+</html>
